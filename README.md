@@ -10,8 +10,8 @@
    DB_USERNAME=laravel_user<br>
    DB_PASSWORD=laravel_pass<br>
  5.マイグレーションファイル作成<br>
-  　　php artisan make:migration create_contacts_table<br>
-   php artisan make:migration create_categories_table<br>
+ php artisan make:migration create_contacts_table<br>
+ php artisan make:migration create_categories_table<br>
 リレーション、シーディングは実装が間に合わなかったため割愛。<br>
 
 ## 使用技術(実行環境)<br>
