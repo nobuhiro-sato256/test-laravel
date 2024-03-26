@@ -1,0 +1,22 @@
+body{
+    height: 100%;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+}
+.contact-text{
+    color: #B8860B;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.form{
+    height: 80%;
+}
+.form__group{
+    display: flex;
+}

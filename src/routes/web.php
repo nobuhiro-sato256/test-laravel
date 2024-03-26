@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FormController::class, 'index']);
+Route::post('/index', [FormController::class, 'confirm']);
+Route::post('/confirm', [FormController::class, 'create']);
+
+Route::get('/admin', [AdminController::class, 'admin']);
