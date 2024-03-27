@@ -22,7 +22,8 @@
   phpmyadmin<br>
 
 ## ER図<br>
-< - - - 作成したER図の画像 - - - ><br>
+作成が間に合わず断念<br>
 
 ## URL<br>
   開発環境：http://localhost/<br>
+  
